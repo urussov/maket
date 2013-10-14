@@ -1,0 +1,102 @@
+html {
+	-webkit-text-size-adjust: none;
+}
+
+/***** TABLETS (LANDSCAPE) - 801-1000 *****/
+@media only screen and (min-width: 801px) and (max-width: 1000px) { /* 980 */
+	@-ms-viewport {
+		width: 1000px; /* 980 */
+	}
+}
+/***** TABLETS (PORTRAIT), PHONES (LANDSCAPE) - 321-800  *****/
+@media only screen and (min-width: 321px) and (max-width: 800px) {
+	@-ms-viewport {
+		width: device-width;
+	}
+}
+/***** PHONES (PORTRAIT) - 320  *****/
+@media only screen and (max-width: 320px) {
+	@-ms-viewport {
+		width: 320px;
+	}
+}
+
+/***** TABLETS (PORTRAIT), PHONES (LANDSCAPE+PORTRAIT) - 0-800  *****/
+@media only screen and (max-width: 800px) {
+	img
+	{
+		max-width: 100%;
+		height: auto !important;
+		width: auto\9; /* ie8 */
+	}
+	iframe,  
+	object,  
+	embed
+	{
+		max-width: 100%;
+	}
+	/*
+	.video
+	{
+		position: relative;
+		padding-bottom: 56.25%;
+		height: 0;
+		overflow: hidden;
+	}
+	.video iframe,  
+	.video object,  
+	.video embed
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%; auto?
+	}
+	*/
+	body
+	{
+		min-width: 100%;
+		word-wrap: break-word;
+	}
+
+	#slider
+	{
+		display: none !important;
+		visibility: hidden !important;
+	}
+	footer .cert,
+	footer nav,
+	aside form,
+	.frontpage .extra
+	{
+		display: none;
+	}
+	body,
+	#container > header,
+	#container > #middle,
+	#container > .slider,
+	#container > footer
+	{
+		/*width: 100%;*/
+		min-width: inherit;
+	}
+	.page-wrapper
+	{
+		width: 90%;
+		margin: 0 auto;
+	}
+	#middle aside,
+	#middle .content
+	{
+		float: none;
+		width: 100%;
+	}
+
+}
+
+/***** PHONES (PORTRAIT) - 0-479  *****/
+@media only screen and (max-width: 479px) {
+
+
+}

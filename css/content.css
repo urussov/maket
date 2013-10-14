@@ -1,0 +1,542 @@
+/*********************** CSS RESET *************************/
+
+body, div,
+h1, h2, h3, h4, h5, h6,
+ul, ol, li, dl, dt, dd,
+p, blockquote, pre, table,
+form, fieldset, input, textarea, button
+{
+	margin: 0;
+	padding: 0;
+}
+html
+{
+	/*
+	height: 100%;
+	*/
+	font-size: 100.01%;
+}
+
+body
+{
+	/*
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+	*/
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	margin-top: 1em;
+	font-weight: bold;
+	clear: both;
+}
+
+h1 { font-size: 180%; }
+h2 { font-size: 160%; }
+h3 { font-size: 140%; }
+h4 { font-size: 120%; }
+h5 { font-size: 110%; }
+h6 { font-size: 100%; }
+
+p
+{
+	margin-top: 1em;
+}
+
+hr
+{
+	margin: 1em 0;
+	height: 1px;
+	width: 100%;
+	color: transparent;
+	border-style: none;
+	background-color: #CCCCCC;
+}
+
+img { border-width: 0; }
+
+dl, ol, ul { margin: 1em 0 1em 2em; }
+dl dl, ol ol, ul ul { margin-top: 0; margin-bottom: 0; }
+
+address, code { font-size: 100%; }
+pre, kbd, samp, tt { font-size: 100%; }
+
+q { text-indent: 2em; quotes: "\00ab" "\00bb"; }
+
+sub, sup { font-size: 80%; }
+
+table { /* border-collapse: collapse; */ }
+td { vertical-align: top; }
+
+form, input, button, select, textarea { font-size: 100%; }
+fieldset { border-width: 0; }
+
+nav :focus { outline: none; }
+
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner
+{
+	border: none;
+	margin-top: -2px;
+	margin-bottom: -2px;
+}
+
+/********************* MAIN STYLES **********************/
+
+body, .SC_Item, .SC_ItemSelected
+{
+	color: #494A4A;
+	background-color: #F3F3F3;
+}
+body
+{
+	font-size: 80%;
+}
+body, button, input, select, textarea
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a
+{
+	color: #000;
+	text-decoration: underline;
+}
+a:link, a:visited
+{
+	/*color: #000000 !important;*/
+	background-color: transparent;
+}
+a:hover, a:focus, a:active
+{
+	color: #0070B2;
+	background-color: transparent;
+}
+
+h1
+{
+	font-size: 180%;
+	margin-bottom: 1em
+}
+h1, h1 a, h1 a:link,  h1 a:visited,  h1 a:hover,  h1 a:focus,  h1 a:active
+{
+	color: #DE872F;
+}
+
+h2
+{
+	font-size: 160%;
+}
+h2, h2 a, h2 a:link,  h2 a:visited,  h2 a:hover,  h2 a:focus,  h2 a:active
+{
+	color: #DE872F;
+}
+
+h3
+{
+	font-size: 140%;
+}
+h3, h3 a, h3 a:link,  h3 a:visited,  h3 a:hover,  h3 a:focus,  h3 a:active
+{
+	color: #494A4A;
+}
+
+.Marker1
+{
+	color: #113F56;
+}
+
+.Marker2
+{
+	color: #FFFFFF;
+}
+
+.Marker3
+{
+	color: #DE872F;
+}
+
+cite
+{
+	display: block;
+	border: #ABADAC 1px solid;
+	margin-top: 0.5em;
+	padding: 0.3em;
+	color: #555555;
+	background-color: #E1E6E9;
+}
+code
+{
+	display: block;
+	border: #ABADAC 1px solid;
+	margin-top: 0.5em;
+	padding: 0.3em;
+	font-family: 'Courier New', monospace;
+	color: #555555;
+	background-color: #E1E6E9;
+}
+
+.Details a
+{
+	color: #113F56;
+}
+
+.Signature
+{
+	text-align: right;
+	color: #555555;
+	background-color: transparent;
+}
+
+.Date
+{
+	text-align: right;
+	color: #555555;
+	background-color: transparent;
+}
+
+.ImageLeft
+{
+	float: left;
+	margin: 1em 1em 0.5em 0;
+	border: 1px solid #AAA;
+}
+
+.ImageRight
+{
+	float: right;
+	margin: 1em 0 0.5em 1em;
+	border: 1px solid #AAA;
+}
+
+.ImageCenter
+{
+	display: block;
+	margin: 1em auto 0.5em;
+	border: 1px solid #AAA;
+}
+
+.External
+{
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAFVBMVEVmmcwzmcyZzP8AZswAZv////////9E6giVAAAAB3RSTlP///////8AGksDRgAAADhJREFUGFcly0ESAEAEA0Ei6/9P3sEcVB8kmrwFyni0bOeyyDpy9JTLEaOhQq7Ongf5FeMhHS/4AVnsAZubxDVmAAAAAElFTkSuQmCC);
+	background-repeat: no-repeat;
+	background-position: center right;
+	padding-right: 13px;
+}
+
+.left
+{
+	float: left;
+}
+.right
+{
+	float: right;
+}
+.break
+{
+	float: none;
+	clear: both;
+}
+.clearfix
+{
+	display: block;
+}
+.clearfix:after
+{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/*********************** TABLE ************************/
+
+.Table
+{
+	border: solid 1px #ccc;
+	*border-collapse: collapse; /* IE7 and higher */
+	border-spacing: 0;
+	margin: 1em auto;
+}
+.Table td,
+.Table th
+{
+	padding: 5px 3px;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+.Table td:first-child,
+.Table th:first-child
+{
+	border-left: none;
+}
+.Table th
+{
+	border-top: none;
+}
+.Table thead td,
+.Table thead th,
+.Table tfoot td,
+.Table tfoot th
+{
+	font-weight: bold;
+	background-color: #D3D3D3;
+}
+.Table tbody tr
+{
+	background: #EBEBEB;
+}
+.Table tbody tr:nth-child(even)
+{
+	background: #FFF;
+}
+.Table tbody tr.alt
+{
+	background: #FFF;
+}
+.Table tbody tr:hover
+{
+	background: #EDEFF4;
+	-webkit-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+/*********************** FORM ************************/
+
+form
+{
+	clear: both;
+	width: 100%;
+	margin: 15px 0;
+}
+
+form fieldset
+{
+	width: 100%;
+	border: solid 0px #FFFFFF;
+}
+form legend
+{
+	padding-top: 1em;
+	font-size: 150%;
+	font-weight: bold;
+}
+form p
+{
+	clear: both;
+	margin-top: 1.2em;
+}
+form label
+{
+	float: left;
+	width: 25%;
+	margin-right: 2%;
+	padding-top: 0.2em;
+	text-align: left;
+}
+form label > span
+{
+	display: inline;
+	position: absolute;
+	margin-left: 0.3em;
+	margin-top: -0.3em;
+	color: red;
+	font-size: 180%;
+	font-weight: bold;
+	vertical-align: middle;
+}
+form input,
+form select,
+form textarea
+{
+	width: 70%;
+	margin: 0;
+	padding: 0.2em 1em;
+	border: 1px solid #CCC;
+	outline-width: 0;
+	background-color: #EEE;
+}
+form textarea
+{
+	min-width: 70%;
+	max-width: 70%;
+	height: 12em;
+	white-space: normal;
+}
+form span.group
+{
+	float: left;
+	display: block;
+	width: 70%;
+}
+form span.group input
+{
+}
+form span.group label
+{
+	width: auto;
+	padding-top: 0;
+}
+form input.radio
+{
+	clear: left;
+	display: inline;
+	border-style: none;
+	width: auto;
+	margin: 0.2em;
+	padding: 0;
+	background-color: transparent;
+}
+form input.warning,
+form textarea.warning
+{
+	border: 1px solid #999;
+	background-color: #FFFDCF;
+}
+form img
+{
+	float: left;
+	margin-right: 0.5em;
+	vertical-align: top;
+	cursor: pointer;
+}
+form #captcha
+{
+	float: left;
+	padding: 5px 0;
+	width: 129px;
+	text-align: center;
+}
+form input[type="reset"],
+form input[type="submit"]
+{
+	width: 106px;
+	height: 29px;
+	padding: 0;
+	background-color: #888;
+	color: #FFF;
+	text-align: center;
+	font-weight: normal;
+	font-size: 100%;
+}
+form input[type="reset"]:hover,
+form input[type="submit"]:hover
+{
+	background-color: #0074A3;
+}
+form input[type="submit"]
+{
+	margin-left: 27%;
+}
+form input[type="reset"]:active,
+form input[type="submit"]:active
+{
+	position: relative;
+	top: 1px;
+	left: 1px;
+}
+form input[disabled]
+{
+	background-color: #B7B7B7;
+}
+form p.warning
+{
+	padding-bottom: 1em;
+	color: #FF0000;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+/*********************** GMAP ************************/
+
+.gmap
+{
+	margin: 1em auto;
+	border: 1px solid #CCC;
+	width: 100%;
+	height: 450px;
+}
+.gmap h2
+{
+	margin-top: 0.5em;
+}
+.gmap p img
+{
+	border: 1px solid #AAA;
+}
+
+/*********************** GALLERY ************************/
+
+dl.gallery
+{
+	clear: both;
+	display: inline-block;
+	margin-top: 1em;
+	padding-left: 0;
+}
+dl.gallery dt
+{
+	float: left;
+	overflow: hidden;
+}
+dl.gallery dt.section
+{
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	padding: 0px;
+	text-align: center;
+}
+dl.gallery dt.thumb
+{
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	padding: 0px;
+}
+dl.gallery a
+{
+	text-decoration: none;
+}
+
+/*********************** PAGES ************************/
+
+p.pages
+{
+	font-size: 90%;
+	text-align: center;
+}
+p.pages .prev
+{
+	float: left;
+}
+p.pages .next
+{
+	float: right;
+}
+p.pages a
+{
+	text-decoration: none;
+}
+p.pages .act
+{
+	font-weight: bold;
+}
+p.pages .disabled
+{
+	color: #888;
+}
+
+/*********************** SKYPE ************************/
+
+span.skype_pnh_container { display: none !important; }
+span.skype_pnh_print_container { display: inline !important; }
+

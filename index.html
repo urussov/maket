@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Title</title>
+<meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1" />
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" media="all" href="css/content.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" media="screen" href="css/style-ie8.css" /><![endif]-->
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" media="screen" href="css/magnific-popup.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css">
+<link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="/lib/jquery/jquery.magnific-popup.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".Table tr:even").addClass('alt');
+	function equalHeight(group) {
+		tallest = 0;
+		group.each(function() {
+			thisHeight = $(this).height();
+			if(thisHeight > tallest) { tallest = thisHeight; }
+		});
+		group.height(tallest);
+	}
+	equalHeight($(".frontpage .box"));
+});
+$(document).ready(function() {
+	$('a.thumb').magnificPopup({ type:'image', removalDelay: 300, mainClass: 'my-mfp-zoom-in' });
+	$('a.video').magnificPopup({
+		disableOn: 700,
+		type: 'iframe',
+		mainClass: 'mfp-fade',
+		removalDelay: 300,
+		preloader: false,
+		fixedContentPos: false
+	});
+});
+</script>
+</head>
+
+<body>
+<div class="wrapper">
+	<div id="container">
+		<header>
+			<div class="logo"><a href="#home"><img src="images/logo.png" width="250" height="48" border="0" alt="logo" /></a></div>
+			<div class="languages">
+				<ul>
+					<li id="et"><a href="/et/" hreflang="et">Eesti keeles</a></li>
+					<li id="ru"><a href="/ru/" hreflang="ru">По-русски</a></li>
+					<li id="en" class="last"><a href="/en/" hreflang="en">In English</a></li>
+				</ul>
+			</div>
+			<div class="extra1"><!-- --></div>
+			<div class="extra2"><!-- --></div>
+		</header>
+		<div id="middle">
+			<div class="sidebar">
+				<nav>
+					<ul>
+						<li><a href="#homepage">Главная</a></li>
+						<li><a href="#about">О фирме</a></li>
+						<li><a href="#campaign">Кампания</a></li>
+						<li><a href="#pricelist">Наши цены</a></li>
+						<li><a href="#gallery">Галерея</a></li>
+						<li class="last"><a href="#contact">Контакт</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="content">
+				<section>
+
+				<h1>Lorem ipsum dolor sit amet</h1>
+				<p>Lorem ipsum dolor sit amet, <a href="#link">consectetur</a> adipiscing elit. Nullam eu mi est. Sed nec erat eu tellus ullamcorper congue. Nam eu diam in massa scelerisque tempor. Aliquam feugiat erat ut sapien laoreet non blandit odio interdum. In in massa sed diam mattis varius. Integer risus odio, scelerisque id ornare nec, euismod id justo. Sed convallis sollicitudin porta. Suspendisse blandit elementum ipsum at consequat. Integer at risus ligula, sit amet ultricies nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque dignissim arcu vitae magna posuere imperdiet. Nulla facilisi. Nullam non arcu at odio porttitor elementum. Donec vehicula consectetur tincidunt.</p>
+				<p>Sed sed lorem metus. <span class="Mark1">Praesent sed diam</span> nec enim rutrum sodales. Sed id purus quis dolor elementum vulputate. <span class="Mark2">Phasellus accumsan gravida pharetra.</span> Donec consectetur auctor nulla, ac egestas tellus suscipit sit amet. Curabitur sagittis lorem sed velit vulputate a porttitor libero pellentesque. Suspendisse feugiat volutpat convallis. Aliquam erat volutpat. Etiam erat purus, auctor a interdum at, consequat id tellus. Donec adipiscing dignissim tellus id ornare. Donec eu dolor vitae ante viverra mollis. Cras in turpis dui. Vivamus in mi quis turpis adipiscing dapibus. Donec pulvinar convallis eros, in aliquam nulla suscipit id. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas egestas eros eget orci molestie dapibus vehicula lorem euismod. Nullam molestie augue nec arcu dictum aliquam. Nulla at erat non neque egestas ultricies molestie nec velit. Integer tempor consectetur metus, quis bibendum ipsum semper vitae.</p>
+				<h2>Lorem ipsum dolor sit amet</h2>
+				<p>Proin vel velit id nisl suscipit faucibus. <span class="Mark3">Ut et quam eget odio tempus vehicula quis in sapien.</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam facilisis dapibus est cursus rutrum. Praesent id ipsum sit amet nisl convallis adipiscing. Donec ultrices laoreet magna, ac condimentum est tincidunt a. Donec a mi ut justo aliquam faucibus. Cras euismod hendrerit urna. Suspendisse orci quam, faucibus nec tempus quis, consectetur vitae nulla. Mauris faucibus sagittis mauris non rutrum. Nam dignissim euismod faucibus. Pellentesque ultrices rutrum nibh gravida aliquam. Vivamus non est odio, ut consequat diam. Aliquam hendrerit magna eget quam elementum suscipit. Aliquam erat volutpat. Sed ut magna leo, vel adipiscing arcu. Proin vulputate, augue a bibendum auctor, nibh quam dictum elit, vitae congue arcu erat vel nisl.</p>
+				<p>Quisque accumsan consectetur urna, in blandit libero rutrum sit amet. Ut neque erat, feugiat vitae egestas quis, interdum sit amet urna. Maecenas quis neque sed orci volutpat condimentum. Cras sed nisi massa, vel dictum erat. Aliquam ut lectus mi, nec volutpat elit. Etiam et laoreet turpis. Nulla placerat enim quis elit elementum id ullamcorper neque rutrum. Nam aliquam hendrerit egestas. Nulla sit amet elit eget lorem elementum lobortis. Sed egestas mauris ac tellus tincidunt faucibus. Nullam sed lacus vitae tortor lacinia tristique. Vestibulum posuere sem aliquam lectus ullamcorper tristique. Phasellus eu congue tortor. In hac habitasse platea dictumst.</p>
+				<h3>Lorem ipsum dolor sit amet</h3>
+				<p>Sed in tempor felis. Nullam ut velit dolor. Suspendisse blandit, libero in condimentum sollicitudin, nulla felis aliquet magna, vitae porttitor risus erat vitae arcu. Vivamus ac lectus nulla, eu suscipit ipsum. Nullam consequat volutpat lectus, et tempus lectus malesuada quis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed lobortis eleifend leo sed rutrum. Ut porttitor, erat sed porta tempor, elit dui hendrerit massa, id lacinia nulla diam sed arcu. Praesent at ante dui. Aliquam erat volutpat. Etiam nibh neque, ornare vitae sollicitudin sed, dictum nec sapien. Praesent dictum orci eu justo rhoncus eget pharetra risus consectetur. Praesent tristique nulla tempus ipsum lacinia elementum. Sed lobortis consequat felis quis lacinia. Nam dapibus mi id diam tempus lobortis. Sed in lorem laoreet est varius tristique sed vel lacus. Cras non orci velit.</p>
+
+				</section>
+			</div>
+		</div>
+		<footer>
+			<div class="wrapper">
+				<p class="copyright">&copy; Copyright</p>
+				<p class="producer">Made in <a href="http://www.insite.ee/" target="_blank" title="Made in Insite Media Group">Insite Media Group</a></p>
+			</div>
+		</footer>		
+	</div>
+</div>
+</body>
+</html>

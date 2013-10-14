@@ -1,0 +1,23 @@
+header,
+nav,
+footer .producer,
+form
+{
+	display: none;
+}
+
+#logo
+{
+	display: block;
+	width: 250px;
+	height: 100px;
+	background-color: #FFF;
+}
+
+footer
+{
+	clear: both;
+	margin-top: 1em;
+	padding-top: 0.5em;
+	border-top: 1px solid #CCC;
+}
