@@ -1,3 +1,3 @@
 # HTML/CSS layout
 
-Blank layout for the new site
+Blank layout for the new website
